@@ -1,0 +1,24 @@
+{
+  "_nota": "Personas y fuentes INVENTADAS solo para mostrar el formato.",
+  "personas": [
+    {"id":"P001","nombre":"Laura Gómez Ruiz","sexo":"F",
+     "nacimiento":{"fecha":"1950","aprox":true,"lugar":"Pueblo Ejemplo","fuente":"F001","certeza":"TRADICIÓN ORAL"},
+     "padre":{"id":"P002","certeza":"DOCUMENTADO","fuente":["F002"]},
+     "madre":{"id":"P003","certeza":"DOCUMENTADO","fuente":["F002"]},
+     "notas":"Falta partida de bautismo.","pendiente":["pedir bautismo a Parroquia Ejemplo, 1949-1951"]},
+    {"id":"P002","nombre":"Pedro Gómez Lara","sexo":"M",
+     "nacimiento":{"fecha":"1921-05-02","aprox":false,"lugar":"Vereda La Loma, Pueblo Ejemplo","fuente":"F003","certeza":"DOCUMENTADO"},
+     "padre":{"id":"P004","certeza":"DOCUMENTADO","fuente":["F003"]},
+     "madre":{"id":"P005","certeza":"DOCUMENTADO","fuente":["F003"]},
+     "padrinos":["Juan Lara (¿tío materno?)"]},
+    {"id":"P003","nombre":"Rosa Ruiz Mejía","sexo":"F","padre":null,"madre":null,
+     "notas":"La familia dice que era de Otro Pueblo.","pendiente":["matrimonio con P002"]},
+    {"id":"P004","nombre":"Manuel Gómez","sexo":"M","padre":null,"madre":null},
+    {"id":"P005","nombre":"Teresa Lara","sexo":"F","padre":null,"madre":null}
+  ],
+  "fuentes": [
+    {"id":"F001","cita":"Entrevista a la tía, 2025","visto_en":"grabación propia"},
+    {"id":"F002","cita":"Registro civil de nacimiento de Laura Gómez Ruiz","visto_en":"documento en casa"},
+    {"id":"F003","cita":"Bautismo de Pedro Gómez Lara, Parroquia Ejemplo, libro 3, f. 12, n. 40","visto_en":"FamilySearch, imagen (ejemplo)"}
+  ]
+}
